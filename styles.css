@@ -625,24 +625,24 @@ a.btn:active {
   border-color: #fff;
 }
 
-a1.btn {
+.project .btn {
     display: inline-block;
     padding: 0.3rem 1.5rem;
-    background: #775408;
+    background: #ebb43e;
     color: #fff;
     border-radius: 0.5rem;
-    border: 2px solid #775408;
+    border: 2px solid #ebb43e;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     transition: all 300ms ease-in-out;
   }
   
-  a1.btn:hover {
+  .project .btn:hover {
     transform: translateY(-3px);
     background-color: transparent;
     color: inherit;
   }
   
-  a1.btn:active {
+  .project .btn:active {
     transform: translateY(0px);
   }
   
