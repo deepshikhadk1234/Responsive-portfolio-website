@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   background-color: #fff;
@@ -317,6 +317,17 @@ li {
 .icons span:hover {
   color: #c08913;
 }
+
+.icons a:link,
+.icons a:visited {
+  display: inline-block; 
+  color: #fff;
+}
+
+.icons a:hover {
+    color: #c08913;
+}
+
 
 @media only screen and (max-width: 567px) {
   .icons {
