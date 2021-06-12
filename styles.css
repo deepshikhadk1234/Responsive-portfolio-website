@@ -104,7 +104,7 @@ li {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #dd9a05;
+  background-color: #ffaa33;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   z-index: 999;
 }
@@ -122,7 +122,7 @@ li {
 
 .logo h1 span {
   font-weight: bold;
-  color: #dd9a05;
+  color: #ffaa33;
 }
 
 .nav-list {
@@ -143,7 +143,7 @@ li {
 
 .nav-link:hover {
   border-radius: 0.3rem;
-  background-color: #dd9a05;
+  background-color: #ffaa33;
 }
 
 .top-nav {
@@ -175,7 +175,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #dd9a05;
+    background-color: #ffaa33;
     padding: 1rem 1.6rem;
   }
 
@@ -248,7 +248,7 @@ li {
   font-size: 2rem;
 }
 .hero h4 span {
-  color: #dd9a05;
+  color: #ffaa33;
   text-decoration: underline;
 }
 
@@ -256,8 +256,8 @@ li {
 .hero a:visited {
   display: inline-block;
   padding: 0.8rem 2.5rem;
-  border: 1px solid #dd9a05;
-  background-color: #dd9a05;
+  border: 1px solid #ffaa33;
+  background-color: #ffaa33;
   color: #fff;
   margin-top: 2rem;
 }
@@ -315,7 +315,7 @@ li {
 }
 
 .icons span:hover {
-  color: #c08913;
+  color: #ffcc33;
 }
 
 .icons a:link,
@@ -325,7 +325,7 @@ li {
 }
 
 .icons a:hover {
-    color: #c08913;
+    color: #ffcc33;
 }
 
 
@@ -370,7 +370,7 @@ li {
   left: 50%;
   bottom: -20%;
   transform: translate(-50%, -50%);
-  background-color: #dd9a05;
+  background-color: #ff9933;
   width: 50%;
   height: 0.4rem;
   z-index: 1;
@@ -393,16 +393,16 @@ li {
 }
 
 .right h1 span {
-  color: #dd9a05;
+  color: #ff9933;
 }
 
 a.btn {
   display: inline-block;
   padding: 1rem 2rem;
-  background: #dd9a05;
+  background: #ff9933;
   color: #fff;
   border-radius: 0.5rem;
-  border: 2px solid #dd9a05;
+  border: 2px solid #ff9933;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   transition: all 300ms ease-in-out;
 }
@@ -477,7 +477,7 @@ a.btn:active {
 }
 
 .education span {
-  color: #dd9a05;
+  color: #ff9933;
   font-size: 4rem;
   transition: all 300ms ease-in-out;
 }
@@ -493,7 +493,7 @@ a.btn:active {
 }
 
 .education:hover {
-  background-color: #dd9a05;
+  background-color: #ffbb33;
 }
 
 .education:hover span {
@@ -527,7 +527,7 @@ a.btn:active {
 }
 
 .skills-box .skills-bar {
-  background-color: #dd9a05;
+  background-color: #ff9933;
   height: 0.4rem;
 }
 
@@ -592,7 +592,7 @@ a.btn:active {
 .project .img-cover {
   overflow: hidden;
   border-radius: 100%;
-  border: 4px solid #dd9a05;
+  border: 4px solid #ff9933;
   height: 13rem;
   width: 13rem;
   margin: 0 auto;
@@ -618,7 +618,7 @@ a.btn:active {
 
 .project:hover {
   border-bottom: 4px solid #fff;
-  background-color: #997425;
+  background-color: #ff9933;
 }
 
 .project:hover .img-cover {
@@ -628,10 +628,10 @@ a.btn:active {
 .project .btn {
     display: inline-block;
     padding: 0.3rem 1.5rem;
-    background: #ebb43e;
+    background: #ff8833;
     color: #fff;
     border-radius: 0.5rem;
-    border: 2px solid #ebb43e;
+    border: 2px solid #ff8833;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     transition: all 300ms ease-in-out;
   }
@@ -676,7 +676,7 @@ a.btn:active {
 .left .icon {
   margin-right: 2rem;
   font-size: 2.3rem;
-  color: #dd9a05;
+  color: #ff9933;
 }
 
 .form h2 {
@@ -740,5 +740,5 @@ footer p {
 }
 
 footer p span {
-  color: #dd9a05;
+  color: #ff9933;
 }
