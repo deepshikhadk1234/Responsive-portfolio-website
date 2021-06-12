@@ -315,7 +315,7 @@ li {
 }
 
 .icons span:hover {
-  color: #dd9a05;
+  color: #c08913;
 }
 
 @media only screen and (max-width: 567px) {
@@ -441,7 +441,7 @@ a.btn:active {
   }
 }
 
-/* Services */
+/* education */
 .theme {
   background-color: #000;
 }
@@ -450,13 +450,13 @@ a.btn:active {
   color: #fff;
 }
 
-.services-center {
+.education-center {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 3rem;
 }
 
-.service {
+.education {
   color: #fff;
   background-color: #111;
   padding: 2rem;
@@ -465,27 +465,27 @@ a.btn:active {
   transition: all 300ms ease-in-out;
 }
 
-.service span {
+.education span {
   color: #dd9a05;
   font-size: 4rem;
   transition: all 300ms ease-in-out;
 }
 
-.service h2 {
+.education h2 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
 
-.service p {
+.education p {
   font-size: 1.4rem;
   color: #f1f1f1;
 }
 
-.service:hover {
+.education:hover {
   background-color: #dd9a05;
 }
 
-.service:hover span {
+.education:hover span {
   color: #fff;
 }
 
@@ -501,6 +501,12 @@ a.btn:active {
   font-size: 500;
 }
 
+.skills-box h5 {
+    font-size: 1.4rem;
+    color: #888;
+    font-size: 100;
+  }
+
 .skills-box .skills-ilt {
   width: 100%;
   position: relative;
@@ -514,23 +520,23 @@ a.btn:active {
   height: 0.4rem;
 }
 
-.skills-box .html {
-  width: 95%;
-}
-
-.skills-box .css {
-  width: 85%;
-}
-
-.skills-box .javascript {
+.skills-box .languages {
   width: 90%;
 }
 
-.skills-box .nodejs {
+.skills-box .tools {
   width: 80%;
 }
 
-.skills-box .mongodb {
+.skills-box .devtools {
+  width: 85%;
+}
+
+.skills-box .other {
+  width: 85%;
+}
+
+.skills-box .soft {
   width: 95%;
 }
 
@@ -561,8 +567,8 @@ a.btn:active {
   }
 }
 
-/* Teams */
-.team {
+/* Projects */
+.project {
   color: #fff;
   background-color: #111;
   padding: 3rem;
@@ -572,7 +578,7 @@ a.btn:active {
   transition: all 300ms ease-in-out;
 }
 
-.team .img-cover {
+.project .img-cover {
   overflow: hidden;
   border-radius: 100%;
   border: 4px solid #dd9a05;
@@ -582,31 +588,53 @@ a.btn:active {
   transition: all 300ms ease-in-out;
 }
 
-.team .img-cover img {
+.project .img-cover img {
   height: 100%;
   object-fit: cover;
 }
 
-.team h3 {
+.project h3 {
   font-size: 1.6rem;
   margin: 1rem 0;
 }
 
-.team p {
+.project p {
   font-size: 1.5rem;
   color: #ccc;
   width: 80%;
   margin: 0 auto 1rem auto;
 }
 
-.team:hover {
+.project:hover {
   border-bottom: 4px solid #fff;
-  background-color: #dd9a05;
+  background-color: #997425;
 }
 
-.team:hover .img-cover {
+.project:hover .img-cover {
   border-color: #fff;
 }
+
+a1.btn {
+    display: inline-block;
+    padding: 0.3rem 1.5rem;
+    background: #775408;
+    color: #fff;
+    border-radius: 0.5rem;
+    border: 2px solid #775408;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 300ms ease-in-out;
+  }
+  
+  a1.btn:hover {
+    transform: translateY(-3px);
+    background-color: transparent;
+    color: inherit;
+  }
+  
+  a1.btn:active {
+    transform: translateY(0px);
+  }
+  
 
 /* Contact */
 .contact-center {
