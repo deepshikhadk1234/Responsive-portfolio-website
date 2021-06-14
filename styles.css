@@ -64,7 +64,7 @@ li {
 
 .header img {
   position: absolute;
-  right: 5%;
+  right: 0;
   bottom: 0;
   width: 35rem;
   z-index: -1;
