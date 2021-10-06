@@ -619,7 +619,7 @@ a.btn:active {
 
 .project:hover {
   border-bottom: 4px solid #fff;
-  background-color: #e4535f;
+  background-color: #eb4444;
 }
 
 .project:hover .img-cover {
